@@ -1,0 +1,22 @@
+$primary: #8b979c;
+$link: $primary;
+@import "node_modules/bulma/bulma";
+$fa-font-path: "~/fonts/";
+@import "node_modules/font-awesome/scss/font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&subset=latin-ext');
+
+
+body {
+    background-color: #cad5d9;
+    background-image: url("../img/bg-edwiges-parra.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: auto 100%;
+}
+
+h1.title, h2.title, h1.title img {
+    color: $primary;
+    font-family: 'Work Sans', sans-serif;
+    mix-blend-mode: multiply;
+    text-transform: uppercase;
+}
